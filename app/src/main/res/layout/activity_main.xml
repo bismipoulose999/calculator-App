@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"/>
     <androidx.appcompat.widget.AppCompatButton
         android:background="@drawable/mybutton"
-
+         android:onClick="addition"
         android:layout_margin="10dp"
         android:text="Addition"
         android:textStyle="bold"
@@ -24,6 +24,7 @@
     <androidx.appcompat.widget.AppCompatButton
         android:background="@drawable/mybutton"
         android:layout_margin="10dp"
+        android:onClick="Subtraction"
         android:text="Subtraction"
         android:textStyle="bold"
         android:textSize="40px"
@@ -31,6 +32,7 @@
         android:layout_height="wrap_content"/>
     <androidx.appcompat.widget.AppCompatButton
         android:layout_margin="10dp"
+        android:onClick="multiplication"
         android:background="@drawable/mybutton"
         android:text="Multiplication"
         android:textStyle="bold"
@@ -39,6 +41,7 @@
         android:layout_height="wrap_content"/>
     <androidx.appcompat.widget.AppCompatButton
         android:layout_margin="10dp"
+        android:onClick="division"
         android:background="@drawable/mybutton"
         android:text="Division"
         android:textStyle="bold"
